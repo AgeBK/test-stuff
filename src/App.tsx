@@ -25,7 +25,9 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <img src="barrel.png" alt="test" />
+      <img src="/barrel.png" alt="test" />
+      <img src="./barrel.png" alt="test" />
+      <img src="../barrel.png" alt="test" />
       <img src="src/barrel.png" alt="test" />
       <img src="/src/barrel.png" alt="test" />
       <img src="./src/barrel.png" alt="test" />
