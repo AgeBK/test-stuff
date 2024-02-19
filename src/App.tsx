@@ -1,38 +1,28 @@
-import { useState } from "react";
-
+import { Route, Routes, Link, BrowserRouter as Router } from "react-router-dom";
+import Home from "./Home";
+import Category from "./Category";
 import Image from "./Image";
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <Image image="barrel.png" imageAlt="ImageComponent" imageStyle="" />
-      <Image image="sad.jpg" imageAlt="ImageComponent" imageStyle="" />
-      <Image image="vite.svg" imageAlt="ImageComponent" imageStyle="" />
-      <hr />
-      <img src="src/assets/barrel.png" alt="test" />
-      <img src="./img/barrel.png" alt="test" />
-      <img src="barrel.png" alt="test" />
-      <hr />
-      <img src="src/assets/barrel.png" alt="test" />
-      <img src="/src/assets/barrel.png" alt="test" />
-      <img src="./src/assets/barrel.png" alt="test" />
-      <hr />
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <section className={styles.app}>
+      <Router>
+        <nav className={styles.nav}>
+          <Link to="/">Home</Link>
+          <Link to="/category">Category</Link>
+        </nav>
+        <div>
+          <Image image="barrel.png" imageAlt="alt" imageStyle="logo" />
+          <Image image="sad.jpg" imageAlt="sad" imageStyle="logo" />
+        </div>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:category" element={<Category />} />
+        </Routes>
+      </Router>
+    </section>
   );
 }
 

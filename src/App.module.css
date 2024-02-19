@@ -1,0 +1,17 @@
+.app {
+  padding: 20px;
+}
+
+.test {
+  width: 20px;
+}
+
+.nav {
+  display: flex;
+  border: 1px solid #d3d3d3;
+  justify-content: space-around;
+}
+
+.nav > a {
+  /* flex-grow: 1; */
+}
