@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Image from "./Image";
 import "./App.css";
 
 function App() {
@@ -8,14 +9,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -25,26 +18,15 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <img src="/barrel.png" alt="test" />
-      <img src="./barrel.png" alt="test" />
-      <img src="./sad.jpg" alt="test" />
-      <img src="./s.jpg" alt="test" />
-      <img src="./vite.svg" alt="test" />
-      <img src="publicbarrel.png" alt="test" />
-      <img src="/publicbarrel.png" alt="test" />
-      <img src="./publicbarrel.png" alt="test" />
-      <img src="../publicbarrel.png" alt="test" />
+      <Image image="barrel.png" imageAlt="ImageComponent" imageStyle="" />
+      <img src="src/assets/barrel.png" alt="test" />
+      <img src="./img/barrel.png" alt="test" />
+      <img src="barrel.png" alt="test" />
       <hr />
-      {/* <img src="/assets/barrel.png" alt="test" />
-      <img src="./assets/barrel.png" alt="test" />
-      <img src="../assets/barrel.png" alt="test" />
       <img src="src/assets/barrel.png" alt="test" />
       <img src="/src/assets/barrel.png" alt="test" />
       <img src="./src/assets/barrel.png" alt="test" />
-      <img src="../src/assets/barrel.png" alt="test" />
-      <img src="/../src/assets/barrel.png" alt="test" />
-      <img src="./../src/assets/barrel.png" alt="test" />
-      <img src="../../src/assets/barrel.png" alt="test" /> */}
+      <hr />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
