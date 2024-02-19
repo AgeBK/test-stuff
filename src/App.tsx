@@ -15,6 +15,7 @@ function App() {
         <div>
           <Image image="barrel.png" imageAlt="alt" imageStyle="logo" />
           <Image image="sad.jpg" imageAlt="sad" imageStyle="logo" />
+          <div>images above not in route</div>
         </div>
 
         <Routes>

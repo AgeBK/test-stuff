@@ -7,7 +7,8 @@ const Category = () => {
       <h1>Category Component</h1>
       <div>
         <Image image="barrel.png" imageAlt="alt" imageStyle="logo" />
-        <Image image="sad.jpg" imageAlt="sad" imageStyle="logo" />
+        <Image image="sad.jpg" imageAlt="sad" imageStyle="logo" />{" "}
+        <div>images above in category component</div>
       </div>
     </section>
   );
