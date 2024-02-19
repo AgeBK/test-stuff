@@ -27,7 +27,9 @@ function App() {
       </div>
       <img src="/barrel.png" alt="test" />
       <img src="./barrel.png" alt="test" />
-      <img src="../barrel.png" alt="test" />
+      <img src="./sad.jpg" alt="test" />
+      <img src="./s.jpg" alt="test" />
+      <img src="./vite.svg" alt="test" />
       <img src="publicbarrel.png" alt="test" />
       <img src="/publicbarrel.png" alt="test" />
       <img src="./publicbarrel.png" alt="test" />
