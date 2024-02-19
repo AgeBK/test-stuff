@@ -9,8 +9,8 @@ function App() {
     <section className={styles.app}>
       <Router>
         <nav className={styles.nav}>
-          <Link to="/">Home</Link>
-          <Link to="/category">Category</Link>
+          <Link to="/test-stuff">Home</Link>
+          <Link to="/test-stuff/category">Category</Link>
         </nav>
         <div>
           <Image image="barrel.png" imageAlt="alt" imageStyle="logo" />
