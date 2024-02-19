@@ -19,8 +19,8 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/:category" element={<Category />} />
+          <Route path="/test-stuff" element={<Home />} />
+          <Route path="/test-stuff/:category" element={<Category />} />
         </Routes>
       </Router>
     </section>
