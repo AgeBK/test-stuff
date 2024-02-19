@@ -28,12 +28,12 @@ function App() {
       <img src="/barrel.png" alt="test" />
       <img src="./barrel.png" alt="test" />
       <img src="../barrel.png" alt="test" />
-      <img src="src/barrel.png" alt="test" />
-      <img src="/src/barrel.png" alt="test" />
-      <img src="./src/barrel.png" alt="test" />
-      <img src="../src/barrel.png" alt="test" />
+      <img src="publicbarrel.png" alt="test" />
+      <img src="/publicbarrel.png" alt="test" />
+      <img src="./publicbarrel.png" alt="test" />
+      <img src="../publicbarrel.png" alt="test" />
       <hr />
-      <img src="/assets/barrel.png" alt="test" />
+      {/* <img src="/assets/barrel.png" alt="test" />
       <img src="./assets/barrel.png" alt="test" />
       <img src="../assets/barrel.png" alt="test" />
       <img src="src/assets/barrel.png" alt="test" />
@@ -42,7 +42,7 @@ function App() {
       <img src="../src/assets/barrel.png" alt="test" />
       <img src="/../src/assets/barrel.png" alt="test" />
       <img src="./../src/assets/barrel.png" alt="test" />
-      <img src="../../src/assets/barrel.png" alt="test" />
+      <img src="../../src/assets/barrel.png" alt="test" /> */}
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
