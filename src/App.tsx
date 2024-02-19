@@ -18,6 +18,8 @@ function App() {
         </p>
       </div>
       <Image image="barrel.png" imageAlt="ImageComponent" imageStyle="" />
+      <Image image="sad.png" imageAlt="ImageComponent" imageStyle="" />
+      <hr/>
       <img src="src/assets/barrel.png" alt="test" />
       <img src="./img/barrel.png" alt="test" />
       <img src="barrel.png" alt="test" />
